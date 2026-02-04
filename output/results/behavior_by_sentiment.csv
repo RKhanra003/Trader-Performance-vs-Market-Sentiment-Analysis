@@ -1,0 +1,8 @@
+,num_trades,num_trades,long_short_ratio,long_short_ratio,avg_trade_size,avg_trade_size,total_size,total_size
+,mean,median,mean,median,mean,median,mean,median
+sentiment,,,,,,,,
+Extreme Fear,133.75,50.5,0.5315,0.4955,2260.7651,192.4642,224150.7314,12272.58
+Extreme Greed,76.0304,31.5,0.4731,0.4689,12979.765,172.7911,671532.2633,8633.828
+Fear,98.154,26.0,0.519,0.5144,6465.7307,139.4045,293739.6727,6092.37
+Greed,77.6281,25.0,0.4716,0.4651,4779.7987,172.6362,366041.8705,6155.3037
+Neutral,100.2287,29.5,0.4724,0.4902,6104.8836,94.0677,439339.4504,6690.0555

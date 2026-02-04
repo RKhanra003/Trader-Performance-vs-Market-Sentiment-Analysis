@@ -1,14 +1,12 @@
 # Trader Performance vs Market Sentiment Analysis
 
-**Data Science Intern Assignment - Primetrade.ai**
-
 ## Project Overview
 
 This project analyzes how market sentiment (Fear/Greed) relates to trader behavior and performance on Hyperliquid. The goal is to uncover patterns that could inform smarter trading strategies.
 
 ## Author
-- **Name**: [Your Name]
-- **Email**: [Your Email]
+- **Name**: Rohit Khanra
+- **Email**: rohitkhanra759@gmail.com
 - **Date**: February 4, 2026
 
 ## Table of Contents
@@ -78,31 +76,35 @@ pip install -r requirements.txt
 ## Project Structure
 
 ```
-trader-sentiment-analysis/
+Trader-performance-vs-Market-sentiment-analysis/
 │
-├── README.md                           # This file
-├── requirements.txt                    # Python dependencies
-├── trader_sentiment_analysis.ipynb     # Main analysis notebook
-├── INSIGHTS.md                         # Detailed findings and insights
+├── README.md                         # Project documentation
+├── requirements.txt                  # Python dependencies
+├── INSIGHTS.md                       # Detailed findings and insights
+├──notebook
+│   ├── trader_sentiment_analysis.ipynb   # Main analysis notebook
 │
-├── data/                               # Data directory (not included)
-│   ├── bitcoin_sentiment.csv
-│   └── trader_data.csv
+├── data/                             # Data directory
+│   ├── fear_greed_index.csv
+│   └── historical_data.csv
 │
-└── outputs/                            # Generated outputs
-    ├── performance_by_sentiment.png
-    ├── behavior_by_sentiment.png
-    ├── trader_segments.png
-    ├── time_series_analysis.png
-    ├── correlation_heatmap.png
-    ├── risk_return_analysis.png
-    ├── feature_importance.png
-    ├── confusion_matrix.png
-    ├── trader_archetypes.png
-    ├── performance_by_sentiment.csv
-    ├── behavior_by_sentiment.csv
-    ├── trader_archetypes.csv
-    └── trader_profiles_full.csv
+└── output/                          # Generated outputs
+    ├── charts/                       # Folder for Visualizations (Images)
+    │   ├── performance_by_sentiment.png
+    │   ├── behavior_by_sentiment.png
+    │   ├── trader_segments.png
+    │   ├── time_series_analysis.png
+    │   ├── correlation_heatmap.png
+    │   ├── risk_return_analysis.png
+    │   ├── feature_importance.png
+    │   ├── confusion_matrix.png
+    │   └── trader_archetypes.png
+    │
+    └── results/                      # Folder for Data Tables (CSVs)
+        ├── performance_by_sentiment.csv
+        ├── behavior_by_sentiment.csv
+        ├── trader_archetypes.csv
+        └── trader_profiles_full.csv
 ```
 
 ## How to Run
@@ -265,11 +267,6 @@ Developed 2 key strategy recommendations:
 
 See [INSIGHTS.md](INSIGHTS.md) for detailed findings and strategy recommendations.
 
-## Contact
-
-For questions or clarifications:
-- **Email**: [Your Email]
-- **GitHub**: [Your GitHub]
 
 ## Acknowledgments
 
